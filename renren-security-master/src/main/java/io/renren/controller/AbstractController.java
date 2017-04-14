@@ -19,7 +19,6 @@ public abstract class AbstractController {
 	protected SysUserEntity getUser() {
 		return ShiroUtils.getUserEntity();
 	}
-//汇中财富
 	protected Long getUserId() {
 		return getUser().getUserId();
 	}
